@@ -25,7 +25,7 @@ The terraform module will create a DigitalOcean Kubernetes cluster[(DOKS)](https
 
 ```bash
 git clone https://github.com/hivenetes/k8s-bootstrapper.git
-cd infrastructure
+cd k8s-bootstrapper/infrastructure
 # Initialise terraform modules
 terraform init
 # Modify the `variables.tfvars.example` as per your requirements
